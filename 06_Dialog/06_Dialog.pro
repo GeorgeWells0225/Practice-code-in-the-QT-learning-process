@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-01-13T11:33:42
+# Project created by QtCreator 2019-01-14T17:16:25
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 03_SignalAndSlot
+TARGET = 06_Dialog
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,16 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwidget.cpp \
-    subwidget.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mainwidget.h \
-    subwidget.h
+        mainwindow.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-

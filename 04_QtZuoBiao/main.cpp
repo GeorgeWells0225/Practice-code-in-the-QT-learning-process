@@ -1,13 +1,12 @@
-#include "mainwidget.h"
+#include "mywidget.h"
 #include <QApplication>
-
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWidget subWin;//执行MainWidget的构造函数
-    subWin.show();
+    MyWidget w;
+    w.resize(500,500);
+    w.show();
 
     return a.exec();
-
 }
