@@ -19,7 +19,7 @@ Widget::Widget(QWidget *parent) :
 
     db.setHostName("localhost");
     db.setUserName("root");
-    db.setPassword("Mysql@25");
+    db.setPassword("PASSWORD");
     db.setDatabaseName("query_the_database");
 
 
